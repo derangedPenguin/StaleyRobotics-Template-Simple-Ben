@@ -1,4 +1,4 @@
-from wpilib import *
+import wpilib
 from wpimath import *
 from wpimath.controller import *
 from wpimath.estimator import *
@@ -12,7 +12,7 @@ from wpimath.trajectory import *
 from wpimath.units import *
 from wpinet import *
 from wpiutil import *
-
+"""
 from cscore import *
 from hal import *
 from ntcore import *
@@ -24,10 +24,11 @@ from commands2.button import *
 from commands2.cmd import *
 
 from ctre import *
-from rev import *
+from rev import *"""
 
 class Robot(TimedRobot):
-    def robotInit(self): pass
+    def robotInit(self): 
+        self.motor = wpilib.PWMTalonFX(13) #probly wrong idk
     def robotPeriodic(self): pass
 
     def autonomousInit(self): pass
