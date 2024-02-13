@@ -1,0 +1,1 @@
+python 3.11 pip path: "/Users/732592/Library/Python/3.11/bin/pip3"

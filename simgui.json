@@ -1,0 +1,53 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "AnalogGyro[0]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Victor SPX[1]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Victor SPX[2]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Victor SPX[3]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Victor SPX[4]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Drivetrain": "Subsystem"
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "Shuffleboard": {
+        ".metadata": {
+          "open": true
+        },
+        "open": true
+      },
+      "SmartDashboard": {
+        "Drivetrain": {
+          "open": true
+        },
+        "open": true
+      }
+    }
+  }
+}
